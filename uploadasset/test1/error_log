@@ -1,0 +1,44 @@
+
+[26-Dec-2022 13:17:12 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[26-Dec-2022 13:17:33 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[26-Dec-2022 13:29:44 UTC] PHP Parse error:  syntax error, unexpected '$ep_dm' (T_VARIABLE) in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 30
+[26-Dec-2022 13:29:48 UTC] PHP Parse error:  syntax error, unexpected '$ep_dm' (T_VARIABLE) in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 30
+[27-Dec-2022 07:37:18 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php:239
+Stack trace:
+#0 {main}
+  thrown in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 239
+[27-Dec-2022 07:38:57 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php:239
+Stack trace:
+#0 {main}
+  thrown in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 239
+[28-Dec-2022 14:23:07 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[28-Dec-2022 14:23:07 UTC] PHP Notice:  Undefined index: assets in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 5
+[28-Dec-2022 14:24:57 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[28-Dec-2022 14:24:57 UTC] PHP Notice:  Undefined index: assets in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 5
+[31-Dec-2022 11:21:06 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[31-Dec-2022 11:21:06 UTC] PHP Notice:  Undefined index: assets in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 5
+[31-Dec-2022 11:21:24 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[31-Dec-2022 11:21:24 UTC] PHP Notice:  Undefined index: assets in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 5
+[31-Dec-2022 13:07:57 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[31-Dec-2022 13:07:57 UTC] PHP Notice:  Undefined index: assets in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 5
+[02-Jan-2023 06:33:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 273
+[02-Jan-2023 06:33:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 273
+[02-Jan-2023 06:33:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 273
+[02-Jan-2023 06:33:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 273
+[02-Jan-2023 06:33:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 273
+[02-Jan-2023 06:33:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 273
+[02-Jan-2023 06:34:15 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 273
+[02-Jan-2023 06:34:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 285
+[02-Jan-2023 06:34:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/publishe/public_html/selfserve/uploadasset/uploadassets.php on line 285
+[24-Jan-2023 09:44:27 UTC] PHP Notice:  Undefined index: client in /home/publishe/public_html/selfserve/uploadasset/up2.php on line 5
+[24-Jan-2023 09:44:27 UTC] PHP Notice:  Undefined index: ast_adb in /home/publishe/public_html/selfserve/uploadasset/up2.php on line 30
+[24-Jan-2023 09:46:17 UTC] PHP Notice:  Undefined index: client in /home/publishe/public_html/selfserve/uploadasset/up2.php on line 5
+[24-Jan-2023 09:46:17 UTC] PHP Notice:  Undefined index: ast_adb in /home/publishe/public_html/selfserve/uploadasset/up2.php on line 30
+[24-Jan-2023 09:46:35 UTC] PHP Notice:  Undefined index: client in /home/publishe/public_html/selfserve/uploadasset/up2.php on line 5
+[24-Jan-2023 09:46:35 UTC] PHP Notice:  Undefined index: ast_adb in /home/publishe/public_html/selfserve/uploadasset/up2.php on line 30
+[25-Jan-2023 12:33:28 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[25-Jan-2023 12:33:28 UTC] PHP Notice:  Undefined index: assets in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 5
+[25-Jan-2023 12:33:28 UTC] PHP Notice:  Undefined index: id in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 7
+[25-Jan-2023 12:34:08 UTC] PHP Notice:  Undefined index: urlpath in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 4
+[25-Jan-2023 12:34:08 UTC] PHP Notice:  Undefined index: assets in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 5
+[25-Jan-2023 12:34:08 UTC] PHP Notice:  Undefined index: id in /home/publishe/public_html/selfserve/uploadasset/uploadimage.php on line 7

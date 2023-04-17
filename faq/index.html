@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+   <style>
+   #btn {
+         margin-top: 25px;
+            margin-left: 15px;
+            background-color: #f0f0f0;
+            height: 30px;
+               /*color:white;*/
+            width: 70px;
+          border-radius: 5px;
+            border: 2px solid black;
+            font-size:18px;
+             font-weight:600;
+             /*box-shadow:1px 1px 1px 1px;*/
+        }
+        
+        #btn:hover {background-color: #2f3a51;
+            color:white;
+            
+        }
+  </style>
+
+</head>
+<body>
+ <button  id="btn" onclick="location.href='/Adtag/testp.php'"  >Back</button><br>
+
+<div class="container">
+
+  <h2 style="text-align: center;">Frequently Asked Questions</h2>
+
+  <div class="faq">
+    <div class="faq-item">
+      <a>How to use adtag?</a>
+      <div class="content">
+       <div>
+           1) There are total 3 columns :- <br><br>
+               fcats > dimension > adtags
+           <div><img src="https://s.hcurvecdn.com/atest/sapna/dcm.png" alt="DCM adtag" style="height: 250px; width:100%; margin:10px">   </div>
+           <p style="text-align: center;">Fig 1: Screenshot Showing the DCM adtag</p>  <br>   
+           <div><img src="https://s.hcurvecdn.com/atest/sapna/btn1.png" alt="DCM adtag" style="height: 161px; width:40%; margin:10px">   </div><br>
+           
+           2) User need not to copy the adtag manually just Click on the copy text button. Your adtag gets copied and you can use the adtag.<br><br>
+           
+          <img src="https://s.hcurvecdn.com/atest/sapna/preview.png" alt="preview-btn" style="height: 105px; width:90%; margin:10px"  ><br> 3) When a user
+          clicks on this button, then the<b> Preview</b> page will be shown.
+           <br><br>
+            <img src="https://s.hcurvecdn.com/atest/sapna/FAQ.png" alt="preview-btn" style="height: 105px; width:90%; margin:10px" ><br>
+           4)How to Copy Ad-Tag from HC Tool/Frequently asked question for DCM AD-Tag:-<br> &nbsp; &nbsp;FAQ page will be visible, if a 
+           user clicks on it. <br><br>
+           5)user can download the report on different formal(like excel pdf etc.)<br><br>
+             <img src="https://s.hcurvecdn.com/atest/sapna/download.png" alt="preview-btn" style="height: 105px; width:90%; margin:10px" ><br>
+          <b> CSV Format-</b> A CSV file is a text file that has a specific format which allows data to
+           be saved in a table structured Format.User Can download the data report in this format.<br><br>
+           
+           <b>PDF Format-  </b>User Can download the data report in PDF format.<br><br>
+           
+           <b> Excel Format- </b> User Can download the data report in excel format as well.<br><br>
+       </div>
+      </div>
+    </div> 
+    
+    <div class="faq-item">
+      <a>Programmatic Media Buy - Best Practices</a>
+      <div class="content">
+       <div>
+        <p style="font-size: 20px;font-weight: 600;"> AD Size</p>
+        <ul>
+       <li> Create separate Line-items (LIs) for different ad sizes.</li>
+       <b> for e.g.</b> Create separate LIs for 300x250 vs 300x600
+       <li> If all creatives are attached to the same LI budget, it gets spent on creative with most inventory.</li>
+       <b> for e.g.</b> 320x50 & 300x250 will get 80-90% of budget</ul>
+        
+       <p style="font-size: 20px;font-weight: 600;"> Viewability</p>
+       <ul>
+        <li>  Add viewability filter. DV360 gives option to add filter on viewability..</li>
+          <li> Keep Line-item (LI) viewability filter above 70%.</li>
+            <li> Low or No viewability, ad inventory will result in poor CTR.</li></ul>
+        
+            <p style="font-size: 20px;font-weight: 600;">  Goal/Target</p>
+            <ul>
+              <li> Set your goal targets carefully. </li></ul>
+      <b>  for e.g. </b>if you are setting up rs. 200 CPT target, algo will optimize to achieve equal or lower than 200.
+        
+        <p style="font-size: 20px;font-weight: 600;"> Time of day Spending</p>
+        <ul>
+          <li> For moment marketing campaigns the delivery should be evenly distributed across all hours of the campaign.</li>
+            <li> Hence, check your hourly report daily to see if the impressions are bought evenly across all campaign hours.</li>
+              <li> HC Recommendation Model suggests 75-80% of the Daily Impressions should happen on the During Match Hours (On Live Moments). </li>
+                <li>Remaining 25-20% impressions to happen throughout the day.</li></ul>
+        
+      <b> for e.g.</b>  If a Cricket Match is at 8pm, So daily Budget should be set up in a way that from 12 am to 7:30 pm only 15-20% of the daily impressions is bought, so that from 7:30pm to 11:30pm 75-80% Impressions are done.<br>
+        
+        So that the campaign should not face issue of key match hours didn't get impressions as the daily budget got exhausted before the match started and Whole of the media buying happened on a default Creative.
+        
+
+       </div>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script  src="function.js"></script>
+<script>
+       
+const items = document.querySelectorAll(".faq a");
+
+function togglefaq(){
+  this.classList.toggle('active');
+  this.nextElementSibling.classList.toggle('active');
+}
+
+items.forEach(item => item.addEventListener('click', togglefaq));
+</script>
+</body>
+</html>

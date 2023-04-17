@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+:root {
+  --black: #333;
+  --white: rgb(238, 233, 233);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* Universal styles */
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.maincontainer {
+  width: 98%;
+  min-height: 95vh;
+  padding: 10px;
+}
+.maincontainer .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px 0px 50px 0px;
+}
+.maincontainer .header h1 {
+  font-size: 3rem;
+}
+.maincontainer .inputs {
+  width: 100%;
+  margin: 0px 0px 50px 0px;
+}
+.maincontainer .inputs form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.maincontainer .inputs form .input-box {
+  margin: 0px 10px;
+}
+.maincontainer .inputs form .input-box input,
+.maincontainer .inputs form .input-box label,
+.maincontainer .inputs form .input-box select {
+  font-size: 1.7rem;
+}
+.maincontainer .table {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.maincontainer .table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.maincontainer .table table th {
+  background-color: #dddddd;
+}
+.maincontainer .table table td,
+.maincontainer .table table th {
+  padding: 5px;
+  font-size: 1.6rem;
+  border: solid 0.5px black;
+}
+.maincontainer .table table td .stat-input,
+.maincontainer .table table th .stat-input {
+  width: 200px;
+  text-align: center;
+  outline: none;
+} /*# sourceMappingURL=style.css.map */

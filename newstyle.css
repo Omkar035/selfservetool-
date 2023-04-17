@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'ebold';
+    src: url('https://s.hcurvecdn.com/fonts/Inter-ExtraBold.woff2?v=3') format("truetype");
+}
+@font-face {
+    font-family: 'sbold';
+    src: url('https://s.hcurvecdn.com/fonts/Inter-SemiBold.woff2?v=3') format("truetype");
+}
+@font-face {
+    font-family: 'cardM';
+    src: url('https://hcurvecdn.com/fonts/cardium-medium.woff2?v=3') format("truetype");
+}
+
+.container{
+/* border:1px solid red; */
+margin: auto;
+width: 50%;
+padding:5px;
+font-family:cardM;
+box-shadow: 0px 3px 3px 1px #ddd;
+border-radius: 5px;
+}
+#first{
+    /* border:1px solid red; */
+    margin: auto;
+    width: 95%;
+    padding:5px;
+    text-align: center;
+    color:#0c3259;
+    font-family: ebold;
+   
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        background-color: #208ff2;
+        border-radius: 5px;
+      }
+      
+      .flex-container > div {
+     
+        width: 50%;
+        margin: 10px;
+    
+     color:white;
+        /* border-radius: 5px; */
+        /* box-shadow: 0px 3px 3px 1px #ddd; */
+      }
+      .flex2-container {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .flex2-container > div {
+     
+        width: 50%;
+        margin: 10px;
+       
+     color:rgb(227, 10, 32);
+        /* border-radius: 5px;
+     box-shadow: 0px 3px 3px 1px #ddd; */
+      }
+      #sec{
+        left:2rem;
+        margin-right:3rem;
+        position:relative;
+      }
+      #third{
+        left:2rem;
+        margin-right:3rem;
+        position:relative;
+      }
+      

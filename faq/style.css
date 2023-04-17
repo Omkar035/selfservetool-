@@ -1,0 +1,155 @@
+  
+    /* @import url('https://fonts.googleapis.com/css?family=Hind:300,400'); */
+/* for alignment */
+
+    *, *:before, *:after {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+    }
+    /* for alignment */
+    html {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Hind', sans-serif;
+      background: #fff;
+      color:black;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      min-height: 100vh;
+      width: 100%;
+
+     /* border: 1px solid black; */
+    }
+    .container {
+      margin: 0 auto;
+      padding: 4rem;
+      width: 60rem;
+      /* font-size: 50px; */
+      /* border: 1px solid black; */
+    }
+    h3 {
+      /* font-size: 1.75rem; */
+      color: black;
+      padding: 1.3rem;
+      margin: 0;
+    }
+    .faq{
+        border: 1px solid black;
+      border-radius: 5px;
+      /* font-size: 50px; */
+      /* margin: 0; */
+      /* width: 100%; */
+    }
+    .faq a {
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem 3rem 1rem 1rem;
+      color: black;
+      font-size: 1.25rem;
+      font-weight: 400;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .faq a:hover,
+    .faq a:hover::after {
+      cursor: pointer;
+      color: rgb(43, 43, 216);
+    }
+    .faq a:hover::after {
+      border: 1px solid rgb(43, 43, 216);
+    }
+    .faq a.active {
+      color: rgb(43, 43, 216);
+      border-bottom: 1px solid rgb(43, 43, 216);
+    }
+    .faq a::after {
+      font-family: 'Ionicons';
+      content: '\f218';
+      position: absolute;
+      float: right;
+      right: 1rem;
+      font-size: 1rem;
+      color: black;
+      padding: 5px;
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      border: 1px solid #7288a2;
+      text-align: center;
+    }
+    
+    .docs::after{
+      /* font-family: 'Ionicons'; */
+      
+      top: 0px;
+      content: '' !important;
+      position: relative !important;
+      float:none !important;
+      right: 0rem !important;
+      font-size: 1rem !important;
+      color: black !important;
+      padding: 0px !important;
+      width: 0px !important;
+      height: 0px !important;
+      /* -webkit-border-radius: 50%;
+      -moz-border-radius: 50%; */
+      border-radius: none !important;
+      border: none !important;
+      text-align: center !important;
+    }
+    
+    .faq a.active::after {
+      font-family: 'Ionicons';
+      content: '\f209';
+      color: rgb(43, 43, 216);
+      border: 1px solid rgb(43, 43, 216);
+    }
+    .faq .content {
+      opacity: 0;
+      padding: 0 1rem;
+      max-height: 0;
+      border-bottom: 1px solid #e5e5e5;
+      overflow: hidden;
+      clear: both;
+      -webkit-transition: all 0.2s ease 0.15s;
+      -o-transition: all 0.2s ease 0.15s;
+      transition: all 0.2s ease 0.15s;
+      font-size: 20px;
+    }
+    .faq .content p {
+      font-size: 1.3rem;
+      font-weight: 300;
+    }
+    .faq .content.active {
+      opacity: 1;
+      padding: 1rem;
+      max-height: 100%;
+      -webkit-transition: all 0.35s ease 0.15s;
+      -o-transition: all 0.35s ease 0.15s;
+      transition: all 0.35s ease 0.15s;
+    }
+      
+      
+       @media only screen and (max-width: 350px) {
+      .faq .content p {
+        font-size: 1.7rem;
+        /*overflow:hidden;*/
+      }
+
+    }

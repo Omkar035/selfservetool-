@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newstyle.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+</head>
+<body>
+    <div class="container" >
+        <marquee direction="left" id="first" > Exciting News! New features in selfserve and New Products has been added by the team </marquee>
+ 
+        <div class="flex-container">
+            <div>
+                <ul > <span style="   font-size: 20px;"> Features added :-</span> 
+                <li >Save Animation and recall anytime.</li>
+                <li >Upload font-family. </li>
+                <li>Search pannel to search the things.</li>
+                </ul>
+            </div>
+            <div>
+                <ul > <span style="   font-size: 20px;">Dynamic variable option</span> 
+                    <li > Geo(true and bcamp)</li>
+                    <li >Dynamic  Weather and temperature </li>
+                    <li>Dynamic Date and Time</li>
+                </ul>
+            </div>
+          </div>
+ 
+          <div class="flex2-container">
+            <div>
+              <ul > <span style="   font-size: 20px;">Repositories Added</span> 
+                  <li > 3D product rotate+ Color change</li>
+                  <li>New carousel Experience</li>
+                  <li >Search with Typo Animation</li>
+               </ul>
+
+            </div>
+            <div>
+                <div class="fadeinout">
+                      <img  id="bg" style="margin-left:10px;width:80px;margin-top: 41px;" src="https://s.hcurvecdn.com/saps/color.png">
+                      <img  id="bg2" style="width:80px;margin-top: 41px;" src="https://s.hcurvecdn.com/saps/newcar.png">
+                      <img  id="bg3" style="width:80px;margin-top: 41px;" src="https://s.hcurvecdn.com/saps/search.png">
+                   
+                  </div>
+                </div>
+            </div>
+         <div id="sec">
+            <h3>Product Analytic Dashboard : </h3>
+            A dashboard to check the details of self serve tool metrics, You can get to know the details about the ads created till now, no of users logged etc.
+            <br> <a href="https://publisherplex.io/selfserve/dbtest.php" target="_blank">https://publisherplex.io/selfserve/dbtest.php </a>
+         </div>
+         <div id="third">
+            <h3>Mailer activated :- </h3>
+            Once the client receives impressions more than 1000+ a email will be sent to the client that the particular campaign has been activated.
+         </div>
+
+
+
+
+
+
+
+          </div>
+    <script>
+        function Anim2() { var tll = new TimelineMax({repeat:1,repeatDelay:3,delay:1 });
+                            tll.from("#bg",.4,{opacity:0,ease:Power0.easeIn});
+                            tll.from("#bg2",.4,{opacity:0,ease:Power0.easeIn},"+=3");
+                            tll.from("#bg3",.4,{opacity:0,ease:Power0.easeIn},"+=3");
+                            tll.from("#bg4",.4,{opacity:0,ease:Power0.easeIn},"+=3"); }
+                 Anim2(); 
+
+      </script>
+
+
+
+</body>
+</html>
